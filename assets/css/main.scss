@@ -42,11 +42,63 @@
   width: 36px;
   height: 36px;
   object-fit: cover;
+  object-position: center top;
   border-radius: 50%;
 
   @include breakpoint($large) {
     width: 175px;
     height: 175px;
+    object-position: center top;
   }
 }
 /* End Wenbo profile avatar */
+
+/* Wenbo publications: clean academic bibliography */
+.wenbo-publications {
+  margin-top: 0.5rem;
+}
+
+.wenbo-publication {
+  padding: 0.8rem 0 1rem;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.wenbo-publication:first-child {
+  padding-top: 0.1rem;
+}
+
+.wenbo-publication:last-of-type {
+  border-bottom: 0;
+}
+
+.wenbo-publication p {
+  margin: 0 0 0.32rem;
+  line-height: 1.55;
+}
+
+.wenbo-publication__title {
+  font-size: 1.03em;
+  font-weight: 400;
+}
+
+.wenbo-publication__authors {
+  font-size: 0.95em;
+}
+
+.wenbo-publication__venue {
+  font-size: 0.92em;
+  opacity: 0.85;
+}
+
+.wenbo-publication__venue a {
+  margin-left: 0.3em;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.wenbo-publications__note {
+  margin-top: 0.6rem;
+  font-size: 0.82em;
+  opacity: 0.82;
+}
+/* End Wenbo publications */
