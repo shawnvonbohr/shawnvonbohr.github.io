@@ -25,17 +25,17 @@ author:
   avatar           : "profile.jpg"
   name             : "Wenbo Xiong"
   pronouns         :
-  bio              : "Ph.D. Student in Intelligent Science and Technology"
+  bio              : "Ph.D. Student"
   location         : "Shanghai, China"
   employer         : "Fudan University"
   uri              :
   email            : "wbxiong24@m.fudan.edu.cn"
   academia         :
   arxiv            :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=fxqrxusAAAAJ"
   inspire-hep      :
   impactstory      :
-  orcid            :
+  orcid            : "https://orcid.org/0009-0002-4769-4487"
   semantic         :
   ssrn             :
   pubmed           :
@@ -45,7 +45,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           :
+  github           : "shawnvonbohr"
   kaggle           :
   stackoverflow    :
   artstation       :
