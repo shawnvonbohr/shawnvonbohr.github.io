@@ -36,3 +36,17 @@
     "layout/archive",
     "layout/sidebar"
 ;
+
+/* Wenbo profile avatar: circular crop */
+.author__avatar img {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 50%;
+
+  @include breakpoint($large) {
+    width: 175px;
+    height: 175px;
+  }
+}
+/* End Wenbo profile avatar */
