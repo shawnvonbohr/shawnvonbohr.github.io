@@ -5,32 +5,44 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<style>
+  .wenbo-pub-list { list-style: none; padding-left: 0; margin-left: 0; }
+  .wenbo-pub-list li { padding: 0.6rem 0 1.15rem; border-bottom: 1px solid #e9ecef; margin-bottom: 0.5rem; line-height: 1.65; }
+  .wenbo-pub-title { font-weight: 600; color: inherit; }
+  .wenbo-pub-meta { color: #616875; font-size: 0.92em; }
+  .wenbo-pub-link { font-size: 0.86em; display: inline-block; margin-top: 0.3rem; }
+</style>
 
-{% include base_path %}
+<h2>2026</h2>
+<ol class="wenbo-pub-list">
+  <li>
+    <div class="wenbo-pub-title">GCD: GCM-consistent Diffusion for Zero-shot Downscaling across Heterogeneous GCMs</div>
+    <div>R. Tie, <strong>W. Xiong</strong>, Z. Shi, et al.</div>
+    <div class="wenbo-pub-meta"><em>Advances in Neural Information Processing Systems (NeurIPS)</em>, 2026. <strong>Accepted.</strong></div>
+  </li>
+</ol>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>2025</h2>
+<ol class="wenbo-pub-list">
+  <li>
+    <div class="wenbo-pub-title">A nearly optimal adaptive saturation function tuning method for quasi-sliding mode control based on integral reinforcement learning</div>
+    <div>L. Guo, <strong>W. Xiong</strong>, H. Zhao, et al.</div>
+    <div class="wenbo-pub-meta"><em>Neurocomputing</em>, vol. 623, article 129363, 2025.</div>
+    <a class="wenbo-pub-link" href="https://doi.org/10.1016/j.neucom.2025.129363" target="_blank" rel="noopener noreferrer">[DOI]</a>
+  </li>
+</ol>
 
-
-
+<h2>2024</h2>
+<ol class="wenbo-pub-list">
+  <li>
+    <div class="wenbo-pub-title">An efficient model-free adaptive optimal control of continuous-time nonlinear non-zero-sum games based on integral reinforcement learning with exploration</div>
+    <div>L. Guo, <strong>W. Xiong</strong>, Y. Song, et al.</div>
+    <div class="wenbo-pub-meta"><em>IET Control Theory &amp; Applications</em>, vol. 18, no. 6, pp. 748–763, 2024.</div>
+    <a class="wenbo-pub-link" href="https://doi.org/10.1049/cth2.12610" target="_blank" rel="noopener noreferrer">[DOI]</a>
+  </li>
+  <li>
+    <div class="wenbo-pub-title">基于博弈论与强化学习的多体路径规划算法</div>
+    <div><strong>熊文博</strong>，郭磊，焦彤宇</div>
+    <div class="wenbo-pub-meta"><em>深圳大学学报（理工版）</em>，2024. (In Chinese)</div>
+  </li>
+</ol>
