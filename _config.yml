@@ -22,12 +22,12 @@ repository               : "shawnvonbohr/shawnvonbohr.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar           : "profile.jpg"
+  avatar           : "profile_framed.jpg"
   name             : "Wenbo Xiong"
   pronouns         :
   bio              : "Ph.D. Student"
   location         : "Shanghai, China"
-  employer         : ""
+  employer         :
   uri              :
   email            : "wbxiong24@m.fudan.edu.cn"
   academia         :
