@@ -13,6 +13,8 @@ I am currently a Ph.D. student (since fall 2024) at the [School of Data Science 
 
 My research interests include AI for Science, particularly in climate and energy, as well as reinforcement learning, optimal control and game theory.
 
+---
+
 # Publications
 
 <div class="wenbo-publications">
