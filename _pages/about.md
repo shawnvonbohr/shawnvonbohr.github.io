@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
+# About Me
 
 I am currently a Ph.D. student (since fall 2024) at the [School of Data Science of Fudan University](https://sds.fudan.edu.cn/), majoring in Intelligent Science and Technology, advised by Prof. Libo Wu and Prof. Ke Wei. I'm also jointly trained at the Shanghai Innovation Institute ([SII](https://www.sii.edu.cn/)). I received my Master’s degree in Control Science and Engineering in 2024 and Bachelor’s degree in Automation in 2021, both from Beijing University of Posts and Telecommunications.
 
 My research interests include AI for Science, particularly in climate and energy, as well as reinforcement learning, optimal control and game theory.
 
-## Publications
+# Publications
 
 <div class="wenbo-publications">
   <article class="wenbo-publication">
