@@ -21,7 +21,11 @@ My research interests include AI for Science, particularly in climate and energy
   <article class="wenbo-publication">
     <div class="wenbo-publication__title">GCD: GCM-consistent Diffusion for Zero-shot Downscaling across Heterogeneous GCMs</div>
     <div class="wenbo-publication__authors">Ruian Tie<sup>*</sup>, <strong>Wenbo Xiong</strong><sup>*</sup>, Zhengyu Shi<sup>*</sup>, Xinyu Su, Chenyu Jiang, Libo Wu<sup>†</sup>, Hao Li<sup>†</sup></div>
-    <div class="wenbo-publication__venue"><em>Advances in Neural Information Processing Systems (NeurIPS)</em>, 2026. Accepted.</div>
+    <div class="wenbo-publication__venue"><em>Advances in Neural Information Processing Systems (NeurIPS)</em>, 2026. Accepted.
+    <a href="https://arxiv.org/abs/2601.21760"
+     target="_blank"
+     rel="noopener noreferrer">[arXiv]</a>
+    </div>
   </article>
 
   <article class="wenbo-publication">
